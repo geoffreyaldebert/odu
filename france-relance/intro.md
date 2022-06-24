@@ -30,10 +30,12 @@ Charger les données agrégées :
 
 ```python
 df = pd.read_csv('donnees-agregees.csv', sep=";",dtype=str)
+df.head()
 ```
 
 Charger les données territorialisées : 
 
 ```python
 df = pd.read_csv('donnees-territoriales.csv',sep=";", dtype=str)
+df.head()
 ```
