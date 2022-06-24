@@ -1,6 +1,7 @@
 #!/bin/sh
 
-WORK_DIR=/home/jovyan/work
+#WORK_DIR=/home/jovyan/work
+WORK_DIR=./tmp
 CLONE_DIR=${WORK_DIR}/repo-git
 COURSE_DIR=${CLONE_DIR}/france-relance
 FORMATION_DIR=${WORK_DIR}/odu
@@ -28,4 +29,4 @@ REQUIREMENTS_FILE=${FORMATION_DIR}/requirements.txt
 rm -r $CLONE_DIR
 
 # Open the relevant notebook when starting Jupyter Lab
-echo "c.LabApp.default_url = '/lab/tree/formation/odu.ipynb'" >> /home/jovyan/.jupyter/jupyter_server_config.py
+echo "c.LabApp.default_url = '/lab/tree/formation/intro.ipynb'" >> /home/jovyan/.jupyter/jupyter_server_config.py
