@@ -1,7 +1,6 @@
 #!/bin/sh
 
-#WORK_DIR=/home/jovyan/work
-WORK_DIR=./tmp
+WORK_DIR=/home/jovyan/work
 CLONE_DIR=${WORK_DIR}/repo-git
 COURSE_DIR=${CLONE_DIR}/france-relance
 FORMATION_DIR=${WORK_DIR}/odu
@@ -16,7 +15,7 @@ python $CLONE_DIR/utils/md-to-ipynb.py france-relance/intro.md
 
 # Put chapter data in the training dir
 mkdir $FORMATION_DIR
-cp france-relance/* ${FORMATION_DIR}/
+cp ${COURSE_DIR}/* ${FORMATION_DIR}/
 
 # Give write permissions
 chown -R jovyan:users $FORMATION_DIR/
