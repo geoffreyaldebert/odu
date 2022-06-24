@@ -36,6 +36,6 @@ df.head()
 Charger les données territorialisées : 
 
 ```python
-df = pd.read_csv('donnees-territoriales.csv',sep=";", dtype=str)
-df.head()
+df2 = pd.read_csv('donnees-territoriales.csv',sep=";", dtype=str)
+df2.head()
 ```
