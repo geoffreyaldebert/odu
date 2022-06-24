@@ -28,4 +28,4 @@ REQUIREMENTS_FILE=${FORMATION_DIR}/requirements.txt
 rm -r $CLONE_DIR
 
 # Open the relevant notebook when starting Jupyter Lab
-echo "c.LabApp.default_url = '/lab/tree/formation/intro.ipynb'" >> /home/jovyan/.jupyter/jupyter_server_config.py
+echo "c.LabApp.default_url = '/lab/tree/odu/intro.ipynb'" >> /home/jovyan/.jupyter/jupyter_server_config.py

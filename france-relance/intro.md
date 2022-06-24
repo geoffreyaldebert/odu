@@ -18,6 +18,12 @@ Exemples :
 - Mesure “Ma Prime renov” a permis en avril 2022 de financer 900000 dossiers pour la rénovation énergétique de bâtiments. Dans le Maine et Loire 13000 dossiers ont été financés, ce qui correspond à XXX Kwh économisés par an.
 - l’accord de Paris vise à rénover XXX batiments d’ici 30 ans. Pour arriver, à ce chiffre, le plan France Relance n’est pas suffisant, il faut financé en plus XXX dossiers, au rythme de XX / an, etc.
 
+## Imports
+
+```python
+import pandas as pd
+```
+
 ## Données agrégées
 
 Charger les données agrégées :
